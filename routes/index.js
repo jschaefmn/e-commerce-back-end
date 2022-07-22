@@ -6,7 +6,7 @@ const tagRoutes = require('./api/tag-routes');
 
 router.use('/api', apiRoutes);
 router.use('/categories', categoryRoutes);
-route.use('/products', productRoutes);
+router.use('/products', productRoutes);
 router.use('/tags', tagRoutes);
 
 router.use((req, res) => {
